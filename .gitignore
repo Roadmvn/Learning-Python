@@ -1,0 +1,133 @@
+# ═══════════════════════════════════════════════════════════════
+# .gitignore pour Learning-Python Red Team
+# ═══════════════════════════════════════════════════════════════
+
+# ═══════════════════════════════════════════════════════════════
+# Python
+# ═══════════════════════════════════════════════════════════════
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ═══════════════════════════════════════════════════════════════
+# Fichiers spécifiques au Red Teaming (SENSIBLES)
+# ═══════════════════════════════════════════════════════════════
+
+# Logs de keylogger
+*.log
+keylog*.txt
+keys.txt
+
+# Fichiers de données sensibles
+passwords.txt
+hashes.txt
+credentials.txt
+*.pcap
+*.pcapng
+
+# Captures réseau
+captured_*
+sniffed_*
+
+# Bases de données
+*.db
+*.sqlite
+*.sqlite3
+
+# Payloads compilés
+*.exe
+*.dll
+*.bin
+payload_*
+
+# Fichiers de configuration sensibles
+config.json
+settings.json
+*.conf
+
+# Certificats et clés
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# ═══════════════════════════════════════════════════════════════
+# Fichiers de test (à ne pas commiter)
+# ═══════════════════════════════════════════════════════════════
+
+test_output/
+test_logs/
+temp/
+tmp/
+scratch/
