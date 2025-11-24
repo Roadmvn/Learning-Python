@@ -89,19 +89,12 @@ learning-python/
 ├── requirements.txt       ← Dépendances Python
 ├── setup.sh              ← Script d'installation automatique
 ├── .gitignore            ← Fichiers à ignorer par Git
-└── exercices/            ← 25 exercices progressifs
-    ├── 01_hello_print/
-    ├── 02_variables_types/
-    ├── 03_input_output/
-    ├── ... (22 autres exercices)
-    ├── 25_persistence/
-    └── ... (Nouveaux Modules Malware Dev)
-        ├── 01_Data_Structures/
-        │   ├── 04_Trees_Graphs/ (Ransomware, Evasion, Lateral Movement)
-        │   └── ...
-        └── 02_Algorithms/
-            ├── 04_Bit_Manipulation/ (XOR Encryption, API Hashing)
-            └── ...
+├── 00_CS_Fundamentals/   ← Bases de l'informatique
+├── 01_Data_Structures/   ← Structures de données (Trees, Graphs...)
+├── 02_Algorithms/        ← Algorithmes (Bit Manipulation, Sorting...)
+├── 03_Systems_Programming/ ← Programmation Système
+├── 04_Object_Oriented_Design/ ← Conception Orientée Objet
+└── 05_Security_Engineering/ ← Sécurité Offensive & Malware Dev
 ```
 
 Chaque dossier d'exercice contient :
