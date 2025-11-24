@@ -94,7 +94,14 @@ learning-python/
     ├── 02_variables_types/
     ├── 03_input_output/
     ├── ... (22 autres exercices)
-    └── 25_persistence/
+    ├── 25_persistence/
+    └── ... (Nouveaux Modules Malware Dev)
+        ├── 01_Data_Structures/
+        │   ├── 04_Trees_Graphs/ (Ransomware, Evasion, Lateral Movement)
+        │   └── ...
+        └── 02_Algorithms/
+            ├── 04_Bit_Manipulation/ (XOR Encryption, API Hashing)
+            └── ...
 ```
 
 Chaque dossier d'exercice contient :
@@ -125,6 +132,12 @@ Chaque dossier d'exercice contient :
 - Scanning et reconnaissance
 - Post-exploitation
 - Persistance et évasion
+
+### Phase 4 : Malware Development & CS Fundamentals (Nouveau)
+**Modules Avancés** : Application des concepts CS à la sécurité offensive
+- **Trees & Graphs** : Ransomware logic, Process evasion, Lateral movement
+- **Bit Manipulation** : Obfuscation, Shellcode encoding, API Hashing
+- **Algorithms** : Evasion heuristique, Optimisation d'attaques
 
 Voir [PROGRESSION.md](PROGRESSION.md) pour le plan détaillé.
 

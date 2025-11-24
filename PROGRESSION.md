@@ -298,6 +298,38 @@ Ce document présente un plan d'apprentissage structuré pour maîtriser Python 
 - Cartographie réseau
 - Identification de services vulnérables
 
+---
+
+## Phase 4 : Malware Development & CS Fundamentals (Semaines 9+)
+
+### Module 1 : Data Structures for Offensive Security
+
+#### Exercice : Trees & Graphs (Ransomware & Evasion)
+**Concepts :**
+- DFS/BFS Traversal
+- N-ary Trees (Process Hierarchy)
+- Graph Shortest Path
+
+**Application Malware Dev :**
+- **Filesystem Traversal** : Logique de ransomware pour trouver des fichiers cibles
+- **Process Tree Analysis** : Détection de relations parent-enfant suspectes (PPID Spoofing)
+- **Lateral Movement** : Trouver le chemin d'attaque le plus court dans un réseau (Worm logic)
+
+---
+
+### Module 2 : Algorithms & Obfuscation
+
+#### Exercice : Bit Manipulation (Evasion & Encoding)
+**Concepts :**
+- XOR, AND, OR, NOT, Bit shifting
+- Bitmasks & Flags
+- Rolling XOR
+
+**Application Malware Dev :**
+- **XOR Cipher** : Chiffrement de payloads pour éviter les signatures AV
+- **Flag Checker** : Vérification de privilèges Windows (Token manipulation)
+- **ROR13 Hashing** : Technique de Metasploit pour cacher les imports d'API (API Hashing)
+
 **Outils similaires :** Nmap
 
 ---
